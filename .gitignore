@@ -1,0 +1,33 @@
+# Dependencies
+node_modules/
+*/node_modules/
+
+# Production builds
+dist/
+*/dist/
+build/
+web-build/
+
+# Expo
+.expo/
+*/.expo/
+
+# Environment files
+.env
+.env*.local
+backend/.env
+
+# Logs and cache
+*.log
+npm-debug.*
+yarn-debug.*
+yarn-error.*
+.DS_Store
+**/.DS_Store
+
+# IDE and agent files
+.claude/
+.agents/
+
+# graphify code graph (rebuild with: graphify update .)
+graphify-out/
