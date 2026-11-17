@@ -1,0 +1,49 @@
+{
+  "expo": {
+    "name": "Natter",
+    "slug": "natter",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "automatic",
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "backgroundColor": "#2F45D8",
+        "foregroundImage": "./assets/android-icon-foreground.png",
+        "backgroundImage": "./assets/android-icon-background.png",
+        "monochromeImage": "./assets/android-icon-monochrome.png"
+      }
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "plugins": [
+      "expo-router",
+      "expo-status-bar",
+      [
+        "expo-splash-screen",
+        {
+          "image": "./assets/splash-icon.png",
+          "imageWidth": 120,
+          "backgroundColor": "#EEF1F6",
+          "dark": {
+            "image": "./assets/splash-icon.png",
+            "backgroundColor": "#0E1221"
+          }
+        }
+      ],
+      "expo-image",
+      "expo-font",
+      "expo-secure-store",
+      "expo-audio",
+      "expo-sharing"
+    ],
+    "scheme": "natter",
+    "experiments": {
+      "typedRoutes": false
+    }
+  }
+}
