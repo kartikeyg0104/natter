@@ -1,0 +1,36 @@
+/**
+ * Short fun facts posted by the Natter bot when BOT_MODE=true.
+ * The bot cycles through them in order.
+ */
+export const FACTS: string[] = [
+  'Honey never really spoils. Archaeologists have found jars in ancient Egyptian tombs that were still edible.',
+  'Octopuses have three hearts and blue blood.',
+  'A day on Venus is longer than a year on Venus.',
+  'Bananas are berries, but strawberries are not.',
+  'Sea otters hold hands while they sleep so they do not drift apart.',
+  'The Eiffel Tower can grow about 15 cm taller in summer as the iron expands in the heat.',
+  'Wombat droppings are cube-shaped.',
+  'A group of flamingos is called a flamboyance.',
+  'There are more possible games of chess than atoms in the observable universe.',
+  'Cows have best friends and get stressed when they are separated.',
+  'The shortest war on record, between Britain and Zanzibar in 1896, lasted under 45 minutes.',
+  'Sharks existed before trees did.',
+  'Scotland has more than 400 words for snow.',
+  'A single cloud can weigh more than a million kilograms.',
+  'Butterflies taste with their feet.',
+  'The inventor of the Pringles can was buried in one.',
+  'Koalas sleep for up to 20 hours a day.',
+  'Hot water can sometimes freeze faster than cold water. It is called the Mpemba effect.',
+  'Some turtles can breathe through their rear ends.',
+  'The dot over a lowercase i or j is called a tittle.',
+  'Lobsters were once so common in New England that they were fed to prisoners.',
+  'A bolt of lightning is about five times hotter than the surface of the Sun.',
+  'Pineapples take around two years to grow.',
+  'Your nose can tell apart at least a trillion different smells.',
+  'The first oranges were not orange. They were green.',
+  'Crows can recognise human faces and remember them for years.',
+  'Saturn is less dense than water, so it would float in a big enough bathtub.',
+  'A snail can sleep for three years.',
+  'The longest place name in New Zealand has 85 letters.',
+  'Peanuts are not nuts. They are legumes, like peas and lentils.',
+];
